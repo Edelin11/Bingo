@@ -21,7 +21,7 @@ let numberArray2 = arrayOfNumbers(16, 30);
 function To30 (){
     let randomIndex = getTheNumbers(0, numberArray2.length -1);
     let a = numberArray2[randomIndex];
-    numberArray2.splice(randomIndex, 1);
+    numberArray2.splice(randomIndex, 1); 
     return a;
 }  
 let numberArray3 = arrayOfNumbers(31, 45);
@@ -134,4 +134,4 @@ totalB();
 // now i have to do the matching, with the given number and the bingo on the table
 function toMatch(){
     // no yet... 
-}
+} 
